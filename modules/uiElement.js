@@ -1,8 +1,8 @@
 "use strict";
-import { Rect } from "modules/rectangle.js";
-import { Vec2 } from "modules/vector2.js";
-import { CapturableMouseEvent, ScreenManager } from "modules/screenManager.js";
-import { ctx, Display } from "modules/graphics.js";
+import { Rect } from "./rectangle.js";
+import { Vec2 } from "./vector2.js";
+import { CapturableMouseEvent, ScreenManager } from "./screenManager.js";
+import { ctx, Display } from "./graphics.js";
 export function addChild(parent, factory) {
     const child = factory(parent);
     parent.children.push(child);

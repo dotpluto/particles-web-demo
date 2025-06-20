@@ -1,6 +1,6 @@
 "use strict";
-import { StartScreen, GameScreen, EndScreen } from "modules/screen.js";
-import { canvas } from "modules/graphics.js";
+import { StartScreen, GameScreen, EndScreen } from "./screen.js";
+import { canvas } from "./graphics.js";
 export class ScreenManager {
     static halveFps;
     static continueRendering = false;

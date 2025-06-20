@@ -1,5 +1,5 @@
 "use strict";
-import { Vec2 } from "modules/vector2.js";
+import { Vec2 } from "./vector2.js";
 export class Rect {
     x;
     y;

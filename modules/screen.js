@@ -1,10 +1,10 @@
-import { UIText, HAnchPoint, VAnchPoint, UIButton, UIIconButton, addChild, UIScore, } from "modules/uiElement.js";
-import { Vec2 } from "modules/vector2.js";
-import { CapturableMouseEvent, ScreenManager } from "modules/screenManager.js";
-import { Game } from "modules/game.js";
-import { canvas, ctx } from "modules/graphics.js";
-import { loadTexture } from "modules/assetManagement.js";
-import { BuildingType, TowerType } from "modules/entity.js";
+import { UIText, HAnchPoint, VAnchPoint, UIButton, UIIconButton, addChild, UIScore, } from "./uiElement.js";
+import { Vec2 } from "./vector2.js";
+import { CapturableMouseEvent, ScreenManager } from "./screenManager.js";
+import { Game } from "./game.js";
+import { canvas, ctx } from "./graphics.js";
+import { loadTexture } from "./assetManagement.js";
+import { BuildingType, TowerType } from "./entity.js";
 export class Screen {
     liveRendering;
     uiElements = [];

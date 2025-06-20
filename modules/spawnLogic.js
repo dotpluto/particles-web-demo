@@ -1,5 +1,5 @@
-import { EnemyType } from "modules/entity.js";
-import { Game } from "modules/game.js";
+import { EnemyType } from "./entity.js";
+import { Game } from "./game.js";
 export class SpawnMan {
     static maxTimer = 100;
     timer = 0;

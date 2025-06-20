@@ -1,7 +1,7 @@
 "use strict";
-import { Vec2 } from "modules/vector2.js";
-import { LevelDescriptor, Level } from "modules/level.js";
-import { TowerType } from "modules/entity.js";
+import { Vec2 } from "./vector2.js";
+import { LevelDescriptor, Level } from "./level.js";
+import { TowerType } from "./entity.js";
 export class Game {
     static level = null;
     static screen = null;

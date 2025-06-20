@@ -1,4 +1,4 @@
-import { ctx } from "modules/graphics.js";
+import { ctx } from "./graphics.js";
 //section count
 const sectionSizeHint = 100; //the wanted chunk size
 /*

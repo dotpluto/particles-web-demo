@@ -1,9 +1,9 @@
 "use strict";
-import { Vec2 } from "modules/vector2.js";
-import { loadTexture } from "modules/assetManagement.js";
-import { Game } from "modules/game.js";
-import { EffArray, fastDelete } from "modules/util.js";
-import { Resources } from "modules/currency.js";
+import { Vec2 } from "./vector2.js";
+import { loadTexture } from "./assetManagement.js";
+import { Game } from "./game.js";
+import { EffArray, fastDelete } from "./util.js";
+import { Resources } from "./currency.js";
 export class EntityType {
     size;
     doCollision;

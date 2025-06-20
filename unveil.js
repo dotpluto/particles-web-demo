@@ -1,4 +1,3 @@
-//TODO improve error handling
 //making the game initially fit to the screen
 //this is updated later
 const canvas = window.document.getElementById("canvas");
