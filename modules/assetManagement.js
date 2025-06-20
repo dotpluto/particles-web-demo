@@ -1,6 +1,11 @@
 "use strict";
+<<<<<<< HEAD
 const TEXTURE_PATH = "./assets/textures/"; //textures are loaded from the modules directory
 const FONT_PATH = "./assets/fonts/"; //fonts are as of now only loaded from the root directory
+=======
+const TEXTURE_PATH = window.location.pathname + "assets/textures/"; //textures are loaded from the modules directory
+const FONT_PATH = window.location.pathname + "assets/fonts/"; //fonts are as of now only loaded from the root directory
+>>>>>>> 2167421 (fix: Made asset loading smarter)
 let finsishedLoading = false; //wheter to reject new load request
 let assetPromises = [];
 export function loadTexture(name) {
